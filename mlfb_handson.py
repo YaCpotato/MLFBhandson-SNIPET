@@ -13,7 +13,6 @@ import pandas as pd
 boston_df = pd.DataFrame(boston.data, columns = boston.feature_names) 			# 説明変数(boston.data)をDataFrameに保存
 boston_df['MEDV'] = boston.target 												# 目的変数(boston.target)もDataFrameに追加
 boston_df.head()
-boston.feature_names
 
 import matplotlib.pyplot as plt
 import seaborn as sns
