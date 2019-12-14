@@ -21,6 +21,13 @@ Userディレクトリ直下へ移動し、pythonの仮想環境を作る
 python3 -m venv mlfb
 ```
 
+
+### Windows
+
+```
+python -m venv mlfb
+```
+
 ## ライブラリのインストール
 
 ```
